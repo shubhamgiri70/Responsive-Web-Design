@@ -230,6 +230,10 @@ body {
   width: 100%;
 }
 
+.font0{
+  font-size: 0;
+}
+
 /* Padding */
 
 .padding{
@@ -313,9 +317,57 @@ body {
 }
 
 .heading{
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.4rem;
+  font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 2rem;
   font-family: auto;
+}
+
+.para1{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(130, 129, 129);
+  line-height: 1.2;
+}
+
+/* BLog */
+
+.blog h3{
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: auto;
+  color: #020511;
+}
+
+.blog p{
+  font-size: 1.2rem;
+  color: #565658;
+}
+
+.blog .btn{
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+}
+
+.font0 img{
+  max-height: 230px;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #212946;
+  color: #b2b0b0;
+  padding: 3rem 0;
+}
+
+.footer a{
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.footer small{
+  font-size: 1.5rem;
 }

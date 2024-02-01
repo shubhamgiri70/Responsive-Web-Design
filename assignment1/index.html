@@ -6,13 +6,15 @@
     <title>Responsive Blog Template</title>
     <!-- css style -->
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/e51c578d8a.js" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://kit.fontawesome.com/e51c578d8a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="navbar">
       <div class="container">
-        <nav class="flex justify-between item-center">
+        <nav class="flex justify-between item-center column">
           <a class="brand" href="#"><img src="media/logo.png" alt="logo" /></a>
           <ul class="flex item-center nav-menu">
             <li class="nav-item"><a href="#">home</a></li>
@@ -25,52 +27,67 @@
     <main>
       <!-- Hero -->
       <section class="padding hero">
-        <article class="container flex justify-between item-center">
-          <div class="flex48">
+        <article class="container flex justify-between item-center wrap">
+          <div class="flex48 flex100 order1">
             <h1 class="heading">What is Lorem Ipsum?</h1>
-            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum laudantium nostrum nihil repudiandae cupiditate molestiae saepe maiores officia earum aspernatur provident, atque, adipisci autem magnam, delectus iure itaque asperiores inventore! Ratione tenetur aperiam temporibus. Quos, enim iure nemo tenetur dolor saepe nam doloribus omnis deserunt, tempora, veritatis porro consequuntur sint nulla magnam ut libero expedita debitis delectus! Quidem ipsa officia libero distinctio Quidem ipsa officia libero distinctio  Quidem ipsa officia Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis fugit in, sit id voluptatum corrupti quos iste magni ut eaque?</p>
+            <p class="para1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              harum laudantium nostrum nihil repudiandae cupiditate molestiae
+              saepe maiores officia earum aspernatur provident, atque, adipisci
+              autem magnam, delectus iure itaque asperiores inventore! Ratione
+              tenetur aperiam temporibus. Quos, enim iure nemo tenetur dolor
+              saepe nam doloribus omnis deserunt, tempora, veritatis porro
+              consequuntur sint nulla magnam ut libero expedita debitis
+              delectus! Quidem ipsa officia libero distinctio Quidem ipsa
+              officia libero distinctio Quidem ipsa officia Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Reiciendis fugit in, sit id
+              voluptatum corrupti quos iste magni ut eaque?
+            </p>
             <a class="btn" href="#">Read More</a>
           </div>
-          <div class="flex48">
-            <img class="width-full" src="media/01.png" alt="01">
+          <div class="flex48 flex100">
+            <img class="width-full" src="media/01.png" alt="01" />
           </div>
         </article>
       </section>
       <!-- Blog -->
-      <section class="padding">
-        <div class="container">
-            <h2 class="heading text-center">Our Blog</h2>
-          <div class="flex justify-between">
-            <article class="flex30 blog">
-             <div class="font0"><img class="width-full" src="media/02.png" alt="02">/div>
-             <h3>Why do we use it?</h3>
-             <p>it is a long established fact that a reader will be distrated by the readable content of a page when looking at its layout. the point of using lorem ipsum is that it has a more-or-less normal distribution.</p>
-             <a class="btn" href="#">Read More</a>
-            </article>
-           <article class="flex30 blog">
-            <div class="font0"><img class="width-full" src="media/03.png" alt="03">/div>
-            <h3>Where it comes from?</h3>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply rendom text. it has roots in a peice of classical Latin literature from 45BC, making it over 2000 years old. Richard Macclintok, a latin....</p>
-            <a class="btn" href="#">Read More</a>
-           </article>
-           <article class="flex30 blog">
-            <div class="font0"><img class="width-full" src="media/04.png" alt="04">/div>
-            <h3>Where can i get some?</h3>
-            <p>There are Many variation of passages of Lorem Ipsum available, but the majority have suffered altration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            <a class="btn" href="#">Read More</a>
-           </article>
-          </div>
-       </div>
-      </section>
     </main>
-    <footer class="padding footer">
-      <div class="container flex justify-between item-center">
-        <small>&copy AltCampus</small>
-      <nav>
-        <a href="#"><i class="fa-brands fa-square-facebook" style="color: #bdc0d2;"></i></a>
-        <a href="#"><i class="fa-brands fa-square-x-twitter" style="color: #bdc0d2;"></i></a>
-      </nav>
-    </div>
-    </footer>
   </body>
+</html>
+<section class="padding">
+  <div class="container">
+      <h2 class="heading text-center">Our Blog</h2>
+    <div class="flex justify-between wrap">
+      <article class="flex30 blog flex100">
+       <div class="font0"><img class="width-full" src="media/02.png" alt="02">/div>
+       <h3>Why do we use it?</h3>
+       <p>it is a long established fact that a reader will be distrated by the readable content of a page when looking at its layout. the point of using lorem ipsum is that it has a more-or-less normal distribution.</p>
+       <a class="btn" href="#">Read More</a>
+      </article>
+     <article class="flex30 blog flex100">
+      <div class="font0"><img class="width-full" src="media/03.png" alt="03">/div>
+      <h3>Where it comes from?</h3>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply rendom text. it has roots in a peice of classical Latin literature from 45BC, making it over 2000 years old. Richard Macclintok, a latin....</p>
+      <a class="btn" href="#">Read More</a>
+     </article>
+     <article class="flex30 blog flex100">
+      <div class="font0"><img class="width-full" src="media/04.png" alt="04">/div>
+      <h3>Where can i get some?</h3>
+      <p>There are Many variation of passages of Lorem Ipsum available, but the majority have suffered altration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      <a class="btn" href="#">Read More</a>
+     </article>
+    </div>
+ </div>
+</section>
+</main>
+<footer class="padding footer">
+<div class="container flex justify-between item-center column">
+  <small>&copy AltCampus</small>
+ <nav>
+  <a href="#"><i class="fa-brands fa-square-facebook" style="color: #bdc0d2;"></i></a>
+  <a href="#"><i class="fa-brands fa-square-x-twitter" style="color: #bdc0d2;"></i></a>
+ </nav>  
+</div>
+</footer>
+</body>
 </html>

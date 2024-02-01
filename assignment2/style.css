@@ -1,0 +1,514 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* costum style */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(rgba(52, 36, 166, 0.6), rgba(52, 36, 166, 0.6)),
+    url(media/banner.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* text */
+
+.text-center{
+  text-align: center;
+}
+
+/* column */
+
+.flex15 {
+  flex: 0 1 15%;
+}
+
+.flex20 {
+  flex: 0 1 20%;
+}
+
+.flex25 {
+  flex: 0 1 25%;
+}
+
+.flex30 {
+  flex: 0 1 30%;
+}
+
+.flex35 {
+  flex: 0 1 35%;
+}
+
+.flex40 {
+  flex: 0 1 40%;
+}
+
+.flex48 {
+  flex: 0 1 48%;
+}
+
+.flex50 {
+  flex: 0 1 50%;
+}
+
+.flex60 {
+  flex: 0 1 60%;
+}
+
+.grow {
+  flex: 1 1 auto;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.font0 {
+  font-size: 0;
+}
+
+/* Padding */
+
+.padding {
+  padding: 2rem 0;
+}
+
+/* Margin */
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+/* Center */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+
+.brand a {
+   text-decoration: none;
+   color: rgb(255 255 255);
+   text-transform: capitalize;
+   font-size: 2.4rem;
+   font-weight: 700;
+}
+
+.menu a{
+  text-decoration: none;
+   color: rgb(255 255 255);
+   text-transform: uppercase;
+   margin-left: 2rem;
+   font-size: 1.5rem;
+}
+
+.menu .active{
+   text-decoration: none;
+   color: rgb(255 255 255);
+   text-transform: capitalize;
+   font-family: 'Comic Neue', cursive;
+   font-size: 1.3rem;
+   background-color: rgb(249 35 77);
+   padding: 0.8rem 2rem;
+   border-radius: 0.3rem;
+}
+
+/* Hero section */
+
+.article-txt h1{
+    color: rgb(255 255 255);
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 3rem 0;
+}
+
+.article-txt small{
+  color: rgb(249 35 77);
+}
+
+.article-txt p{
+  color: rgb(255 255 255);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 2rem 0;
+  line-height: 1.5;
+}
+
+.btn{
+  text-decoration: none;
+  color: rgb(255 255 255);
+  background-color: rgb(249 35 77);
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.2rem;
+  text-transform: capitalize;
+}
+
+/* Main section */
+
+.section{
+  background-color: rgb(255 255 255);
+}
+
+.article2-txt{
+  margin-top: 2.5rem;
+}
+
+.article2-txt h1{
+    color: rgb(0 19 45);
+    text-transform: uppercase;
+    word-spacing: -0.2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 3rem 0;
+}
+
+.article2-txt p{
+  color: rgb(84, 85, 86);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 2rem 0;
+  line-height: 1.5;
+  letter-spacing: -0.1rem;
+}
+
+/* section2 */
+
+.section2{
+  background-color: rgb(222 236 255);
+  width: 100%;
+  height: 60vh;
+}
+
+.section2-heading{
+    color: rgb(0 19 45);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.box{
+  border: 0.2rem dashed rgb(249 35 77);
+  position: relative;
+  margin-top: 3rem;
+}
+
+.box span{
+  color: rgb(249 35 77);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 0 1.1rem;
+  position: absolute;
+  top: -1.4rem;
+  left: 1.1rem;
+  background-color: rgb(222 236 255);
+}
+
+.box h2{
+    color: rgb(0 19 45);
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+
+.box p{
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #676565;
+  letter-spacing: -0.1rem;
+  word-spacing: 0rem;
+  line-height: 1.2;
+}
+
+/* section3 */
+
+.section3{
+  background-color: rgb(255 255 255);
+  width: 100%;
+  height: 170vh;
+}
+
+.section3-heading{
+  color: rgb(0 19 45);
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.parent-schedule{
+  border-left: 0.2rem dashed rgb(249 35 77);
+  position: relative;
+  margin-left: 2rem;
+}
+
+.schedule{
+  margin-bottom: 5rem;
+}
+
+.schedule-txt{
+  margin-left: 6rem;
+}
+
+.circle-active{
+  width: 9.5rem;
+  height: 9.5rem;
+  background-color:rgb(249 35 77) ;
+  color: rgb(255 255 255);
+  border-radius: 50%;
+  padding: 2.3rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  left: -4.6rem;
+}
+
+.circle{
+  width: 9.5rem;
+  height: 9.5rem;
+  background-color: rgb(255 255 255);
+  color: rgb(249 35 77);
+  border: 0.2rem dashed rgb(249 35 77);
+  border-radius: 50%;
+  padding: 2.3rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  left: -4.6rem;
+}
+
+.image-schedule{
+  width: 20%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-left: 4rem;
+}
+
+.schedule-art{
+  width: 70%;
+
+}
+
+.schedule-art h3{
+  color: rgb(0 19 45);
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    /* padding: 0 1rem; */
+    margin: 1rem 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.schedule-art p{
+  color: rgb(84, 85, 86);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: -0.1rem;
+}
+
+.btn-section3-parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-section3{
+  text-decoration: none;
+  color: rgb(255 255 255);
+  background-color: rgb(249 35 77);
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.6rem;
+  padding: 0.9rem 1.8rem;
+  border-radius: 0.2rem;
+  text-transform: capitalize;
+}

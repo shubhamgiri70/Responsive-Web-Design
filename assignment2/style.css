@@ -273,6 +273,12 @@ body {
    font-size: 1.5rem;
 }
 
+.menu a:hover{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+  color: rgb(249 35 77);
+}
+
 .menu .active{
    text-decoration: none;
    color: rgb(255 255 255);
@@ -482,7 +488,6 @@ body {
     font-size: 2rem;
     font-weight: 800;
     line-height: 1.2;
-    /* padding: 0 1rem; */
     margin: 1rem 0;
     font-family: 'Nunito', sans-serif;
 }
@@ -511,4 +516,234 @@ body {
   padding: 0.9rem 1.8rem;
   border-radius: 0.2rem;
   text-transform: capitalize;
+}
+
+/* Section4 */
+
+.section4{
+  background-color: rgb(222 236 255);
+  width: 100%;
+  height: 50vh;
+}
+
+.parent-event-detail{
+  width: 100%;
+  /* margin: 0 2rem; */
+  padding: 4rem 0;
+}
+
+.event-detail{
+   width: 25%;
+   padding: 1rem;
+   margin-right: 2rem;
+   text-align: center;
+}
+
+.event-detail img{
+  margin: 0.5rem 0;
+  width: 4rem;
+}
+
+.event-detail h4{
+    color: rgb(12 3 4);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+}
+
+.event-detail small{
+  color: rgb(12 3 4);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.event-detail-active{
+   width: 25%;
+   padding: 1rem;
+   margin-right: 2rem;
+   text-align: center;
+   background-color: rgb(249 35 77);
+   border-radius: 0.5rem;
+}
+
+.event-detail-active img{
+  margin: 0.5rem 0;
+  width: 4rem;
+}
+
+.event-detail-active h4{
+  color: rgb(255 255 255);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+}
+
+.event-detail-active small{
+  color: rgb(255 255 255);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.section5{
+  background-color: rgb(255 255 255);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.bg-img{
+  background: url(media/banner.png) no-repeat;
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  border-radius: 0.5rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img i{
+  font-size: 7rem;
+  background-color: rgb(249 35 77);
+  border-radius: 50%;
+}
+
+/* Section6 */
+
+.section6{
+  background-color: rgb(222 236 255);
+  width: 100%;
+  height: 110vh;
+}
+
+.section6-heading{
+    color: rgb(0 19 45);
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.section6-article{
+  margin: 1rem 0;
+}
+
+.section6-article img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.section6-article h5{
+  color: rgb(0 19 45);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+  margin: 1rem 0;
+}
+
+.section6-article p{
+  color: rgb(84, 85, 86);
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+}
+
+.section6-article a{
+  color: rgb(6, 38, 84);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.section6-article .section6-article-active-btn {
+  color: rgb(249, 35, 77);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Footer */
+
+.footer{
+  background-color: rgb(35 52 123);
+  width: 100%;
+  height: 35vh;
+}
+
+.footer-logo{
+  width: 35%;
+}
+
+.footer-links{
+  width: 65%;
+}
+
+.quick-links small{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: rgb(231, 228, 228);
+   line-height: 2;
+}
+
+.quick-links li a{
+   font-size: 1.2rem;
+   text-transform: capitalize;
+   font-weight: 400;
+   color: rgb(167, 164, 164);
+   text-decoration: none;
+   margin-right: 0.8rem;
+}
+
+.quick-links ul{
+  margin-top: 2rem;
+}
+
+.follow-links{
+  width: 46%;
+}
+
+.follow-links small{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: rgb(234, 232, 232);
+   line-height: 2;
+}
+
+.follow-links a i{
+   font-size: 1.2rem;
+   background-color: rgb(167, 164, 164);
+   margin-right: 2rem;
+   padding: 0.5rem;
+   border-radius: 0.5rem;
+}
+
+.follow-links nav{
+  margin-top: 2rem;
+}
+
+.footer-bottom{
+  background-color: rgb(16 32 102);
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom small{
+  font-size: 1.2rem;
+  color: rgb(141, 139, 139);
+  word-spacing: -0.2rem;
 }

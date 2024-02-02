@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e51c578d8a.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="container padding">
       <div class="flex justify-between item-center">
         <div class="brand"><a href="#">alt events</a></div>
         <nav>
-          <ul class="flex  menu">
+          <ul class="flex menu">
             <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#section">about</a></li>
+            <li><a href="#section2">services</a></li>
+            <li><a href="#footer">contact</a></li>
             <li><a class="active margin-left" href="#">join us</a></li>
           </ul>    
         </nav>
@@ -34,7 +35,7 @@
       </article>
     </section>
     <main>
-      <section class="section">
+      <section id="section" class="section">
         <article class="container padding flex justify-between width-full">
           <div><img src="media/about.png" alt="02"></div>
           <div class="flex40 article2-txt">
@@ -44,7 +45,7 @@
           </div>
         </article>
       </section>
-      <section class="section2">
+      <section id="section2" class="section2">
         <div class="container padding"> 
            <h1 class="section2-heading">Why you should join</h1>
            <div class="width-full flex justify-between">
@@ -114,6 +115,88 @@
           <span class="btn-section3-parent"><a class="btn-section3" href="#">download sachedule</a></span>
         </div>
       </section>
+      <section class="section4">
+           <div class="parent-event-detail container flex justify-between">
+             <div class="event-detail">
+               <img src="media/speaker.png" alt="07">
+               <h4>20+</h4>
+               <small>Great speakers</small>
+             </div>
+             <div class="event-detail-active">
+              <img src="media/idea.png" alt="08">
+              <h4>50+</h4>
+              <small>total topic</small>
+            </div>
+            <div class="event-detail">
+              <img src="media/participants.png" alt="09">
+              <h4>300+</h4>
+              <small>partcipants</small>
+            </div>
+            <div class="event-detail">
+              <img src="media/sponsor.png" alt="10">
+              <h4>20+</h4>
+              <small>sponsors</small>
+            </div>
+           </div>
+      </section>
+      <section class="section5">
+         <div class="bg-img container">
+          <span><i class="fa-solid fa-circle-play" style="color: #ffffff;"></i></span>
+        </div>
+      </section>
+      <section class="section6">
+          <div class="container padding">
+            <h1 class="section6-heading">our latest news</h1>
+            <div class="flex justify-between width-full">
+               <article class="section6-article flex30">
+                <img src="media/news-01.png" alt="11">
+                <h5>How to build great portfolio as a beginner developer</h5>
+                <p>Lorem Ipsum has been the industry's standard dummytext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make  typee specimen book</p>
+                <a href="#">Read More</a>
+               </article>
+               <article class="section6-article flex30">
+                <img src="media/news-02.png" alt="12">
+                <h5>4 common situations while using git and how to solve them</h5>
+                <p>Lorem Ipsum has been the industry's standard dummytext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make  typee specimen book</p>
+                <a class="section6-article-active-btn" href="#">Read More</a>
+               </article>
+               <article class="section6-article flex30">
+                <img src="media/news-03.png" alt="13">
+                <h5>Basic unix command that you should know</h5>
+                <p>Lorem Ipsum has been the industry's standard dummytext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make  typee specimen book</p>
+                <a href="#">Read More</a>
+               </article>
+            </div>
+          </div>
+      </section>
     </main>
+    <footer id="footer" class="footer">
+      <div class="container padding flex justify-between item-center">
+        <a class="footer-logo" href="#"><img src="media/footer-logo.png" alt="14"></a>
+        <div class="footer-links flex justify-between item-center">
+          <div class="quick-links">
+            <small>Quick Links</small>
+            <nav>
+              <ul class="flex">
+               <li><a href="#">Program</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">contact us</a></li>
+               <li><a href="#">services</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="follow-links">
+            <small>Follow us</small>
+            <nav class="flex">
+              <a href="#"><i class="fa-brands fa-facebook-f" style="color: #0a1b3a;"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter" style="color: #091c3d;"></i></a>
+            </nav>
+        </div>
+      </div>
+      </div>
+      <div class="footer-bottom">
+          <small>&copy AltCampus Services Pvt. Ltd, 2018-present</small>
+      </div>
+    </footer>
   </body>
 </html>

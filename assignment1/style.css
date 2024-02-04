@@ -131,6 +131,7 @@ table {
   border-spacing: 0;
 }
 
+
 /* costum style */
 
 * {
@@ -222,9 +223,9 @@ body {
   flex: 1 1 auto;
 }
 
-.width-full{
+/* .width-full{
   width: 100%;
-}
+} */
 
 .font0{
   font-size: 0;
